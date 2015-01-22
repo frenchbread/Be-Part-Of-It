@@ -1,0 +1,236 @@
+body{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+a{
+    font-size: 14px;
+}
+a.bluecol{
+    color: #4183C4;
+}
+a.min{
+    font-size: 13px;
+    color: #bbb;
+}
+a.boldd{
+    font-size: 16px;
+    font-weight: bold;
+    color: #4183C4;
+}
+a.boldd:hover{
+    text-decoration: underline;
+}
+legend {text-transform: none;
+    display:block;width:100%;
+    padding:0;margin-bottom:20px;
+    font:30px 'Open Sans' ,'Arial';
+    line-height:40px;color:#4183C4;
+    border-bottom:1px solid #eee;}
+header{
+    padding:50px;
+    background-image: url("img/testimonial-pattern.gif");
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    widows: 200px;
+    background-image: url("img/testimonial-pattern.gif");
+    opacity: 0.7;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+}
+footer a{color: #fff}
+#logo{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.maincont{
+    width:700px;
+    margin:50px auto;
+}
+
+.grabcont{
+    margin:20px;
+}
+
+#menuu{
+    margin:10px auto;
+    width:700px;
+}
+#menuu ul li{
+    padding: 5px;
+    display: inline-block;
+}
+
+a.link {
+    color: #4183C4;
+    font-size: 15px;
+    text-decoration: none;
+}
+a.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menulink {
+    color: #4183C4;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menulink:hover{
+    color: #55c2e8;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom:2px solid #eee;
+}
+/*---------------------*/
+
+.tweeet{
+    margin-bottom: 20px;
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+.twee_pic_box{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    top: 10px;
+    left:5px ;
+    position: absolute;
+}
+.twee_box{
+    position: absolute;
+    left: 60px;
+    top:0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+}
+.twee_body{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    padding:7px 10px;
+    font: 14px 'Open Sans';
+}
+.twee_bot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #eee;
+    padding:5px;
+    height: 25px;
+    background: #fafafa;
+    box-shadow: inset 0 1px 0 white;
+
+}
+.twee_bot_left{
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    top:3px;
+    bottom: 0;
+
+}
+.twee_bot_right{
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top:3px;
+    bottom: 0;
+
+}
+/*----------------------*/
+.instaa{
+    position: relative;
+    margin: 0 auto 20px;
+    width: 100% ;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 0px solid #eee;
+    padding: 7px;
+    height: 310px;
+}
+.instaa_media{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    position: absolute;
+    top:5px;
+    left:0;
+    bottom: 5px;
+}
+.instaa_box{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left:315px;
+
+}
+.instaa_box_user{
+    position: absolute;
+    top:5px;
+    left:0;
+    right: 0;
+    border-bottom: 1px solid #eee;
+    height: 50px;
+}
+.instaa_box_userpic{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.instaa_box_userstuff{
+    position: absolute;
+    left:50px;
+    top:0;
+    right: 0;
+
+}
+.instaa_box_caption{
+    position: absolute;
+    top:60px;
+    left: 0;
+    right: 0;
+    padding: 7px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 10px auto;
+    font-size: 14px;
+    color: #777777;
+    border: 1px solid #eee;
+}
